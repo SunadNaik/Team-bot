@@ -1,0 +1,43 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+venv.bak/
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+*.tmp
+*.pid
+
+# Ignore configuration files (like local environment variables)
+*.env
+*.json
+*.yaml
+
+# Ignore the Azure Bot Service files
+msbotconfig.json
+*.bot
+
+# Ignore the IDE specific files
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore the local database (if you're using SQLite for example)
+*.sqlite3
+
+# Ignore any sensitive credentials or API keys files
+*.key
+*.pem
+*.crt
+*.pub
